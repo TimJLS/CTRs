@@ -99,7 +99,7 @@ class LinearLayer(tf.keras.layers.Layer):
 # In[ ]:
 
 
-class FM(tf.keras.layers.Layer):
+class FMLayer(tf.keras.layers.Layer):
     """The Factorization Machine Layer
       Input shape
         - nD tensor with shape: ``(batch_size, ..., input_dim)``.
