@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="CTRs", # Replace with your own username
-    version="0.0.1",
+    version="0.0.1dev01",
     author="Tim Su",
     author_email="omg80827@gmail.com",
     description="A package for CTR prediction",
