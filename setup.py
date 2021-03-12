@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="CTRs", # Replace with your own username
-    version="0.0.1dev01",
+    version="0.0.9",
     author="Tim Su",
     author_email="omg80827@gmail.com",
     description="A package for CTR prediction",
@@ -22,4 +22,7 @@ setuptools.setup(
     ],
     packages=setuptools.find_packages(),
     python_requires=">=3.6",
+    install_requires=[
+        "tensorflow>=2"
+    ]
 )

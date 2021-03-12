@@ -7,7 +7,7 @@
 import sys
 sys.path.append('..')
 import tensorflow as tf
-from layers import layer
+from ..layers import layer
 
 
 # In[ ]:
