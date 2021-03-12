@@ -4,10 +4,8 @@
 # In[ ]:
 
 
-import sys
-sys.path.append('..')
 import tensorflow as tf
-from ..layers import layer
+from ctrs.layers import layer
 
 
 # In[ ]:
